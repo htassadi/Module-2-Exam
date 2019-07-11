@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id='background'>
+    <head>
+        <title>Mario VS Link</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    
+    <body id='body-background'>
+        <!-- Title -->
+        <h1>Structured Programming 1</h1>
+        <h3>Module Exam</h3>
+        <hr>
+
+        <!-- Mario vs Link Style Section -->
+        <h3>Meet the Heroes</h3>
+        <p><button id='MBtn' >Mario</button>or<button id= LBtn>Link</button></p>
+        <center><img id='main-img' src="images/mario-vs-link.jpg"></center>
+
+        <ul>
+            <li>Hero of: <span id="bullet1" >-----</span></li>
+            <li>Love interest: <span id="bullet2" >-----</span></li>
+            <li>Nemesis: <span id="bullet3" >-----</span></li>
+        </ul>
+        
+        <hr>
+
+        <!-- Mario vs Link Variables Section -->
+        <!-- Attack and Defense Calculators -->
+        <h3>Calculating the Hero Attack Values</h3>
+        <center>
+            <table>
+                    <tr>
+                        <td>Mario's Strength: <input id="MS" type='number'></td>
+                        <td>Link's Strength: <input id="LS" type='number' ></td>
+                    </tr>
+                    <tr>
+                        <td>Mario's Defense: <input id="MD" type='number'></td>
+                        <td>Link's Defense: <input id="LD" type='number'></td>
+                    </tr>
+                    <tr>
+                        <td>Mario's Attack Value: <span id="MA" >------</span></td>
+                        <td>Link's Attack Value: <span id='LA' >------</span></td>
+                    </tr>
+                </table>
+        </center>
+        <p><button id='calc-attack' class="btn">Calculate Attack</button></p>
+        <hr>
+
+        <!-- The Battle -->
+        <h3>The Battle Royale</h3>
+        <p>Set the scene and choose the following...</p>
+        <ul>
+            <li>A powerfull color: <input id="input1" type='text' > </li>
+            <li>A knight's go-to item: <input id='input2' type="text"></li>
+            <li>An exclamation: <input id= 'input3' type="text"></li>
+        </ul>
+        <p><button id='start-battle' class="btn">Start the Battle</button></p>
+        <p id='battle-scene' >-------------</p>
+
+        <script src='main.js'></script>
+
+    </body>
+</html>

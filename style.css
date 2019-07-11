@@ -1,0 +1,93 @@
+html {
+    background-color: silver;
+}
+
+body {
+    width:  800px;
+    padding: 30px 75px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 500px;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 0px 10px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+button:first-child {
+    background-color: red;
+}
+
+button:nth-child(2) {
+    background-color: green;
+}
+
+.btn {
+    background-color: silver !important;
+    color: black;
+}
+
+ul {
+    text-align: left;
+    margin-left: 200px;   
+}
+
+li {
+    padding: 10px 0px;
+}
+
+h1:first-child, h1 + h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+table {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+td > span {
+    font-size: 24px;
+    color: purple;
+}
+
+p + p {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px dotted silver;
+}
+
+#I1 {
+    text-decoration: underline ;
+    color : yellow;
+}
+
+#I2 {
+    text-decoration: underline ;
+    color : yellow;
+}
+
+#I3 {
+    text-decoration: underline ;
+    color : yellow;
+}
